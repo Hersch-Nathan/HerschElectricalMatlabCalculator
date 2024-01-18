@@ -8,6 +8,6 @@ function [I1] = Current_Division(Ii,Z1,Z2)
 %Z2 Other Impedence
 %V1 Current through R1
 
-I1 = (Ii * Z1)/(Z1 + Z2);
+I1 = (Ii * Z2)/(Z1 + Z2);
 
 end
