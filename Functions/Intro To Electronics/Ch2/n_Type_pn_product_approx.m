@@ -1,4 +1,4 @@
-function [n, p] = n_Type_pn_product_approx (ND,NA, ni)
+function [n, p] = n_Type_pn_product_approx (ND,NA,ni)
 %PN product Functions
 %Hersch Nathan
 %Last Updated 1/22/2024
