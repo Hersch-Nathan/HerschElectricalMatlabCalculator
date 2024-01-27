@@ -54,7 +54,7 @@ ni = 10^10; % cm^-3
 [n, p] = p_Type_pn_product_approx(ND, NA, ni)
 
 %% Problem 2.25 c
-T  = 200;
+T  = 250;
 
 ni = Si_intrinsic_carrier_density(T);
 ND = 0; %cm^-3
