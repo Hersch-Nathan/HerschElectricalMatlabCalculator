@@ -1,9 +1,9 @@
-function [Pg] = Air_Gap_Pereance_Fringing_Plane(w, d, delta)
+function [PgT] = Air_Gap_Pereance_Fringing_Plane(w, d, delta)
 %Air Gap Pereance with Fringing for a plane
 %Hersch Nathan
 %Last Updated 2/24/2024
 
-%Pg, Pereance of airgap, H
+%PgT, Pereance of airgap, H
 % w, width of air gap, m
 %d, depth of air gap, m
 %delta, height of air gap, m
@@ -11,6 +11,6 @@ function [Pg] = Air_Gap_Pereance_Fringing_Plane(w, d, delta)
 
 mu0 = 4*pi*10^-7;
 
-Pg = mu0*(((w*d)/delta)+(1.04*(w+d))+0.616*delta);
+PgT = mu0*(((w*d)/delta)+(1.04*(w+d))+0.616*delta);
 
 end
