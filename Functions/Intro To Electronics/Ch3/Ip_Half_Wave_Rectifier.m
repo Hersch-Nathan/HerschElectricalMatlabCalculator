@@ -9,6 +9,6 @@ function [Ip] = Ip_Half_Wave_Rectifier (Idc, T, deltaT)
 %Ip, peak current, A
 %Idc, dc current, A
 
-Ip = Idc((2*T)/deltaT);
+Ip = Idc*((2*T)/deltaT);
 
 end
